@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en"> <!-- Indica que el documento es HTML5 y que el idioma es inglés -->
+  <head>
+    <meta charset="utf-8" /> <!-- Establece la codificación de caracteres como UTF-8, para soportar todos los caracteres y símbolos -->
+    <link rel="icon" href="%PUBLIC_URL%/icon.png" /> <!-- Enlace al favicon, el pequeño icono que aparece en la pestaña del navegador. %PUBLIC_URL% será reemplazado con la URL de la carpeta public cuando se construya la app -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <!-- Meta tag para hacer la página responsiva, asegura que se vea bien en todos los dispositivos (teléfonos, tablets, computadoras) ajustando el ancho según el dispositivo -->
+    
+    <meta name="theme-color" content="#000000" /> <!-- Establece el color del tema que algunos navegadores móviles usan para el color de la barra de herramientas cuando la web está abierta -->
+    
+    <meta name="description" content="Web site created using create-react-app" /> 
+    <!-- Proporciona una descripción del sitio web, importante para SEO (optimización de motores de búsqueda) -->
+    
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> 
+    <!-- Icono que se usa cuando los usuarios añaden el sitio web a la pantalla de inicio en dispositivos Apple (como un acceso directo en iPhones) -->
+    
+    <!-- 
+      manifest.json proporciona metadatos que se utilizan cuando la aplicación web se instala en un dispositivo móvil o escritorio. 
+      Ver más en: https://developers.google.com/web/fundamentals/web-app-manifest/ 
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- 
+      Observa el uso de %PUBLIC_URL% en las etiquetas anteriores. 
+      Este será reemplazado por la URL de la carpeta `public` durante la construcción. 
+      Solo los archivos dentro de la carpeta `public` pueden ser referenciados desde este HTML.
+    -->
+
+    <!-- 
+      A diferencia de "/favicon.ico" o "favicon.ico", "%PUBLIC_URL%/favicon.ico" funcionará correctamente tanto con el enrutamiento del lado del cliente como con una URL pública que no sea la raíz.
+      Aprende a configurar una URL pública no raíz ejecutando `npm run build`.
+    -->
+    <title>Fabricio Rios</title> <!-- Título de la página que aparecerá en la pestaña del navegador -->
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript> 
+    <!-- Este mensaje se muestra si el usuario tiene JavaScript deshabilitado. React necesita JavaScript para funcionar, así que se informa al usuario. -->
+    
+    <div id="root"></div> 
+    <!-- Este es el único elemento HTML visible. Aquí es donde React inyecta toda la aplicación. 
+         El componente principal de React (App.js) se renderizará dentro de este div con el id="root". -->
+    
+    <!-- 
+      Este archivo HTML es una plantilla. 
+      Si lo abres directamente en el navegador (sin usar React), verás una página vacía.
+
+      Puedes añadir fuentes web, meta tags adicionales o análisis a este archivo.
+      El proceso de construcción insertará los scripts generados dentro de la etiqueta <body>.
+
+      Para comenzar el desarrollo, ejecuta `npm start` o `yarn start`.
+      Para crear un paquete de producción, usa `npm run build` o `yarn build`.
+    -->
+  </body>
+</html>
