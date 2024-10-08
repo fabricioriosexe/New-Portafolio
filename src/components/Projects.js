@@ -34,7 +34,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>Proyectos</h2>
                 <p>Aquí hay algunos de los proyectos en los que he trabajado, que abarcan diversas tecnologías y enfoques, desde aplicaciones web hasta soluciones de backend.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -42,11 +42,9 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Aplicaciones Web</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Proyectos Backend</Nav.Link>
+                     <a href="https://github.com/fabricioriosexe" target="__blank"><Nav.Link eventKey="second">otros</Nav.Link></a> 
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Proyectos de Datos</Nav.Link>
-                    </Nav.Item>
+                  
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -64,7 +62,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Aquí puedes detallar proyectos backend que has realizado.</p>
+                      
                       
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
