@@ -1,25 +1,30 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/LOOPCHAT.jpeg";
+import projImg1 from "../assets/img/Brenda Cerelli.png";
+import projImg2 from "../assets/img/LoopChat.png";
 import projImg3 from "../assets/img/mariofabri.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import pdf1 from "../assets/pdf/codeware.pdf";
+import pdf2 from "../assets/pdf/LoopChat.pdf";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Sistema de Gestión de Almacén",
-      description: "Aplicación para el control de inventarios usando Java y Spring Boot.",
+      proyec : pdf1,
+      title: "Code-Ware",
+      description: "Juego sobre enseñanza de videojuegos.",
       imgUrl: projImg1,
     },
     {
+      proyec: pdf2,
       title: "Loop Chat",
       description: "Chat en Tiempo Real.",
       imgUrl: projImg2,
     },
     {
+      proyec:" https://github.com/fabricioriosexe/fabri-bros",
       title: "Imitacion de Super Mario 1",
       description: "Copia de Super Mario",
       imgUrl: projImg3,
@@ -60,13 +65,6 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                      
-                      
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Aquí puedes detallar proyectos relacionados con datos o análisis.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

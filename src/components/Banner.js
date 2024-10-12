@@ -27,8 +27,8 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   
   // Lista de textos que irán rotando en el banner
-  const toRotate = ["Analista", "Developer", "UI/UX Designer"];
-  const period = 2500; // Tiempo entre cambios de texto (en milisegundos)
+  const toRotate = ["Analista", "Programador", "Analista"];
+  const period = 2000; // Tiempo entre cambios de texto (en milisegundos)
 
   useEffect(() => {
     // Este efecto se ejecuta cada vez que cambia el estado de `text`.

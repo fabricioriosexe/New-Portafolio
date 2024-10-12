@@ -36,7 +36,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Desarrollador de software con experiencia en Java, Spring Boot, Hibernate, y bases de datos como MySQL, SQL Server y MongoDB. También cuento con habilidades en HTML, CSS y JavaScript para el desarrollo frontend, así como en análisis de sistemas y creación de diagramas.
+              Soy un desarrollador de software con experiencia en tecnologías Java, utilizando marcos de trabajo como Spring Boot y Hibernate. Mi expertise abarca la gestión de bases de datos con MySQL, SQL Server y MongoDB. Poseo competencias en desarrollo frontend, manejando HTML, CSS y JavaScript, complementadas con habilidades analíticas para la creación de sistemas y diagramación efectiva.
               </p>
 
 
